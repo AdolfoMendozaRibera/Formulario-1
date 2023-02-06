@@ -1,0 +1,79 @@
+body
+{
+    color #333;
+    font-family: sans-serif;
+}
+
+input
+{
+    display: block; /*Para que cada etiqueta vaya en una sola linea*/
+    padding: 6px;
+    margin: 12px 5%; /* Margen arriba, margen izquierda */
+    box-sizing: border-box;
+    border: none;
+    border-top: 2px solid #48e;
+    background: transparent;
+    outline: none !important;
+    transition: background 0.3%;
+    width: 100%;
+    color: #fff;
+}
+
+input::placeholder
+{
+    color: #48e;
+    transition: color 0.3%;
+}
+
+input:hover
+{
+    background: #26a;
+}
+
+input:hover::placeholder
+{
+    color: #fff;
+}
+
+
+input[type="submit"]
+{
+    width: 60%;
+    padding: 12px;
+    background: #26a;
+    color: #fff;
+    margin: 24px 0;
+    margin-bottom: 12px;
+}
+
+input[type="submit"]:hover
+{
+    background: #048;
+}
+
+form
+{ 
+    width: 86%;
+    margin: auto; /* Como es display block se va a centrar */
+    background: #013;   /* Fondo de la etiqueta */
+    padding: 30px;  /*Espacio dentro de la etiqueta */
+}
+
+h1
+{
+    color: wheat;
+    margin-bottom: 36px;
+}
+
+.green
+{
+    color: #9c9;
+}
+
+.red
+{
+    color: #c99;
+}
+
+
+
